@@ -92,11 +92,6 @@ function draw() {
 }
 
 function movePlayer(){
-  if (keyIsPressed){
-    if (!soundtrack.isPlaying()){
-      soundtrack.loop();
-    }
-  }
  if (keyIsDown(LEFT_ARROW)) {
     player.position.x -= 15;
   }
