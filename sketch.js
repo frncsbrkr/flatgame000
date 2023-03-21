@@ -10,7 +10,6 @@ let itemText = [
 ];
 
 
-let soundtrack;
 var player;
 var numOfItems = 4; //set this number to number of items in items folder!
 var frame;
@@ -18,7 +17,6 @@ var item = [];
 
 
 function preload(){
-    soundtrack = loadSound('assets/faucet.wav');
 
     item[0] = loadAnimation('assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop1.png','assets/flop2.png')
     item[0].location = {'x':550,'y':2800};
